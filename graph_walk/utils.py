@@ -93,10 +93,10 @@ class WalkGenerator:
                         output_file.write("{}\n".format(line))
             self.num_generated_walks += len(walks)
             if node is None:
-                self.current_node = self.triple_iter_store.get_random_iter()
-            else:
                 self.current_iter = self.triple_iter_store.get_random_iter()
                 self.current_node = self.triple_iter_store.get_next_triplet(self.current_iter)[0]
+            else:
+                self.current_iter = node
             if iteration % 100 == 0:
                 print("Generated: {} walks".format(self.num_generated_walks))
             iteration+=1

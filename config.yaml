@@ -2,8 +2,8 @@ graph-walk:
   max_length : 64 # maximum length of the random walk
   min_length : 32 # maximum length of the random walk
   r: 0.25 # probability to jump to random layer
-  depth: 100
-  num_walks_per_node: 100
+  depth: 64
+  num_walks_per_node: 50
 
 data:
   path : dbpedia-hdt
