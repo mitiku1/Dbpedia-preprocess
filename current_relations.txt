@@ -1,0 +1,12 @@
+links_domain=lmdb_lang=en
+links_domain=transparency270ainfo_lang=en
+linked-hypernyms_type=extension_lang=en
+interlanguage-links_lang=en
+labels_lang=en
+links_domain=wwww3org_lang=en
+links_domain=dbtuneorg_lang=en
+links_domain=datalogainmie_lang=en
+page_lang=en_ids
+links_domain=linkedwebapis_lang=en
+instance-types_lang=en_transitive
+infobox-properties_lang=en
