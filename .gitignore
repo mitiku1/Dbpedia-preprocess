@@ -3,3 +3,5 @@ dbpedia-hdt/*
 entities/*
 local/*
 logs/*
+*.pyc
+*__pycache__*
