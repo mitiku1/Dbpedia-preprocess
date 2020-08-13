@@ -16,9 +16,9 @@ def main(args):
     
 if __name__=='__main__':
     parser = argparse.ArgumentParser()
-    parser.add("-c", "--config", help="Path to cofig file", default="config.yaml")
-    parser.add("-o", "--output_path", help="Directory to save random walks", default="logs/walks")
-    parser.add("-n", "--num_walks", help="Number of walks to generate", default=1000000, type=int)
+    parser.add_argument("-c", "--config", help="Path to cofig file", default="config.yaml")
+    parser.add_argument("-o", "--output_path", help="Directory to save random walks", default="logs/walks")
+    parser.add_argument("-n", "--num_walks", help="Number of walks to generate", default=1000000, type=int)
     
     args = parser.parse_args()
 
